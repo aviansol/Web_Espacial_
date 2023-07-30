@@ -1,0 +1,514 @@
+.main-title
+{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+body
+{
+    background-image: linear-gradient(to bottom right, #0091ad, #1780a1, #2e6f95, #455e89,#5c4d7d,#723c70,#892b64);
+    /*background-image: linear-gradient(#2072AF, #89CFF0);*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*****************HEADER*******************/
+header
+{
+    width: 100%;
+    height: 800px;
+    background:  url(https://images7.alphacoders.com/805/805197.jpg); 
+    background:  url(https://images7.alphacoders.com/805/805197.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+header nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+header nav a{
+    color: #AA98A9;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+header .titulos-header
+{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.titulos-header h1
+{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    color: #E5E4E2;    
+ }
+
+ .titulos-header h2
+ 
+ {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: 300;
+    color: #AA98A9;
+ }
+
+
+.galaxia
+{
+    width: 36%;
+}
+
+
+/**********************Sobre astrobiologia*****************************/
+.title-astrobiologia
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    color: #FFC0CB;
+}
+
+.p-astrobiologia
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    
+    color: #F5FFFA;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+    columns: 3;
+}
+.astro
+{
+    width: 400px;
+    border-radius: 20px;
+    margin-top: -20px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.subtitulo-astro
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFC0CB;
+    text-align: justify;
+
+}
+
+.p-astrobiologia2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F5FFFA;
+    text-align: justify;
+    margin-right: 250px;
+    margin-left: 60px;
+
+}
+
+.subtitulo-unicos
+{
+    font-family: 'Roboto Mono', monospace;;
+    color: #FFC0CB;
+    text-align: justify;
+
+}
+
+.p-astrobiologia3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F5FFFA;
+    text-align: justify;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+.astro-imagen2
+{
+    width: 600px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 25%;
+}
+
+
+/*************Sobre origen del universo************/
+
+.title-universo
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    color: #F0F8FF;
+}
+
+
+
+.p-origen
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+
+.titulo-bigbang
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #E9FFDB;
+    text-align: justify;
+}
+
+.p-bigbang
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+    columns: 2;
+
+}
+
+.img1-bigbang
+{
+    width: 400px;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-right: 50px;
+    margin-left: 100px;
+
+}
+
+.p-bigbang2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+
+.titulo-inflacionaria
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #E9FFDB;
+    text-align: justify;
+}
+
+.p-inflacionaria
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+    columns: 2;
+}
+
+.ima2-inflacionaria
+{
+    width: 400px;
+    border-radius: 20px;
+    margin-top: -40px;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.p-inflacionaria2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+
+/**********************************Sobre Origen de las estrellas*******************/
+
+.estrellas
+{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    color: #FFC0CB;
+}
+
+.p-estrellas
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+
+}
+
+.img-estrellas
+{
+    width: 500px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 100px;
+    columns: 2;
+}
+
+.img-estrellas2
+{
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.fases
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFC0CB;
+    text-align: justify;
+
+}
+
+.p-estrellas2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+    columns: 2;
+
+}
+
+.img-estrellas3
+{
+    
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 100px;
+
+}
+
+.p-estrellas3
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+
+}
+
+.img-estrellas4
+{
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 500px;
+}
+
+.p-estrellas4
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+    columns: 2;
+}
+
+.img-estrellas5
+{
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-left: 90px;
+    margin-top: auto;
+
+}
+
+.p-estrellas5
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+.img-estrellas5
+{
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 40px;
+
+}
+.img-estrellas5:hover 
+{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.img-estrellas5 
+{
+    overflow:hidden;
+}
+
+div.figure 
+{
+    float: left;
+    width: 30%;
+
+}
+
+div.figure p 
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-indent: 0;
+    color: #F0F8FF;
+}
+
+.img-estrellas6
+{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.img-estrellas6:hover 
+{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.img-estrellas6 
+{
+    overflow:hidden;
+}
+
+div.figure2 
+{
+    float: left;
+    width: 30%;
+    margin-top: 18px;
+}
+
+div.figure2 p 
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-indent: 0;
+    color: #F0F8FF;
+}
+
+div.figure3 
+{
+    float: left;
+    width: 40%;
+    margin-top: 5px;
+}
+
+div.figure3 p 
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-indent: 0;
+    color: #F0F8FF;
+}
+
+
+.img-estrellas7
+{
+    width: 400px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.img-estrellas7:hover 
+{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.img-estrellas7 
+{
+    overflow:hidden;
+}
+
+
+.top-estrellas
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFC0CB;
+    text-align: justify;
+}
+
+.top
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+.extra
+{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFC0CB;
+    text-align: justify;
+}
+
+.misiones
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #F0F8FF;
+    text-align: justify;
+    margin: auto;
+    margin-right: 250px;
+    margin-left: 60px;
+}
+
+
